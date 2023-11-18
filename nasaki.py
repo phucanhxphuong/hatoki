@@ -750,8 +750,8 @@ CHAT   ► CHAT GOBAL
 
 def login():
     clear()
-    user = "tdd"
-    passwd = "tranducduy"
+    user = ""
+    passwd = ""
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
@@ -764,93 +764,3 @@ def login():
         ascii_vro()
         main()
 
-login()
-def login():
-    clear()
-    user = "lah"
-    passwd = "lah"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
-    if username != user or password != passwd:
-        print("")
-        print("Không Làm Mà Đòi Có Ăn")
-        sys.exit(1)
-    elif username == user and password == passwd:
-        print("⚡ Welcome to NaSaKi-V4")
-        time.sleep(0.1)
-        ascii_vro()
-        main()
-
-login()
-def login():
-    clear()
-    user = "test"
-    passwd = "123456"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
-    if username != user or password != passwd:
-        print("")
-        print("Không Làm Mà Đòi Có Ăn")
-        sys.exit(1)
-    elif username == user and password == passwd:
-        print("⚡ Welcome to NaSaKi-V4")
-        time.sleep(0.1)
-        ascii_vro()
-        main()
-
-login()
-def login():
-    clear()
-    user = "tmh"
-    passwd = "tmh"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
-    if username != user or password != passwd:
-        print("")
-        print("Không Làm Mà Đòi Có Ăn")
-        sys.exit(1)
-    elif username == user and password == passwd:
-        print("⚡ Welcome to NaSaKi-V4")
-        time.sleep(0.1)
-        ascii_vro()
-        main()
-
-login()
-
-login()
-def login():
-    clear()
-    user = "nht"
-    passwd = "nht"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
-    if username != user or password != passwd:
-        print("")
-        print("Không Làm Mà Đòi Có Ăn")
-        sys.exit(1)
-    elif username == user and password == passwd:
-        print("⚡ Welcome to NaSaKi-V4")
-        time.sleep(0.1)
-        ascii_vro()
-        main()
-
-login()
-
-login()
-def login():
-    clear()
-    user = "nxt"
-    passwd = "nxt"
-    username = input("⚡ Username: ")
-    password = getpass.getpass(prompt='⚡ Password: ')
-    if username != user or password != passwd:
-        print("")
-        print("Không Làm Mà Đòi Có Ăn")
-        sys.exit(1)
-    elif username == user and password == passwd:
-        print("⚡ Welcome to NaSaKi-V4")
-        time.sleep(0.1)
-        ascii_vro()
-        main()
-
-login()
